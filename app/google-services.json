@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "231992585398",
+    "project_id": "searchmovieapp-7eae8",
+    "storage_bucket": "searchmovieapp-7eae8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231992585398:android:af0cf0b91d8353a9860a17",
+        "android_client_info": {
+          "package_name": "com.example.searchmovieapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFVkSXL9BB7nMP-0AoslLfsFnmbpUUJmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

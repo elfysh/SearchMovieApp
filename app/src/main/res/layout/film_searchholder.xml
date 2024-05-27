@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/tools"
+    xmlns:app2="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="@color/main_color"
+    >
+
+    <ImageView
+        android:id="@+id/poster"
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+
+        android:layout_marginStart="16dp"
+        app2:layout_constraintBottom_toBottomOf="parent"
+        app2:layout_constraintStart_toStartOf="parent"
+        app2:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleFilm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:lines="2"
+        android:maxLines="2"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app2:layout_constraintEnd_toEndOf="parent"
+        app2:layout_constraintHorizontal_bias="0.0"
+        app2:layout_constraintStart_toEndOf="@+id/poster"
+        app2:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/poster"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/director"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:text="TextView"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        app2:layout_constraintStart_toEndOf="@+id/poster"
+        app2:layout_constraintTop_toBottomOf="@+id/titleFilm"
+        app:layout_constraintStart_toEndOf="@+id/poster"
+        app:layout_constraintTop_toBottomOf="@+id/titleFilm" />
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:text="TextView"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        app2:layout_constraintStart_toEndOf="@+id/poster"
+        app2:layout_constraintTop_toBottomOf="@+id/director"
+        app:layout_constraintStart_toEndOf="@+id/poster"
+        app:layout_constraintTop_toBottomOf="@+id/director" />
+</androidx.constraintlayout.widget.ConstraintLayout>

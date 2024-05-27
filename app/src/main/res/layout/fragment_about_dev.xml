@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.AboutDevFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/main_color"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/devPic"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:background="@drawable/devicon"
+            android:clipToOutline="true"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/dev" />
+
+        <TextView
+            android:id="@+id/tvDeveloperName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Разработчик: Табакова Э.С."
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvDeveloperInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Группа ИКБО-03-22"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+        <TextView
+            android:id="@+id/tvDeveloperYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2024 год"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:paddingBottom="8dp"/>
+        <TextView
+            android:id="@+id/tvDeveloperEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: eleonora.tabakova@yandex.com"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:paddingBottom="8dp"/>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

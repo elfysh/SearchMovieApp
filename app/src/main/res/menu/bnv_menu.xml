@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainFragment"
+        android:icon="@drawable/btn_1"
+        android:title="Главная"/>
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/btn_4"
+        android:title="Профиль" />
+    <item
+        android:id="@+id/searchFragment"
+        android:icon="@drawable/search"
+        android:title="Поиск" />
+    <item
+        android:id="@+id/aboutDevFragment"
+        android:icon="@drawable/baseline_alternate_email_24"
+        android:title="О разработчике" />
+    <item
+        android:id="@+id/aboutAppFragment"
+        android:icon="@drawable/baseline_android_24"
+        android:title="О программе" />
+</menu>

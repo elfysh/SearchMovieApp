@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color"
+    tools:context=".Fragments.AboutAppFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/main_color"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <TextView
+                android:id="@+id/tvTitleInst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:paddingBottom="2dp"
+                android:text="О приложении"
+                android:textStyle="bold"
+                android:textColor="@color/lavender"
+                android:textSize="28dp"
+                />
+            <TextView
+                android:id="@+id/tvTitleInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:paddingBottom="8dp"
+                android:text="@string/about_app"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                />
+
+            <ImageView
+                android:id="@+id/instPic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/intro_logo" />
+
+            <TextView
+                android:id="@+id/tvInstTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="20dp"
+                android:text="Инструкция"
+                android:textColor="@color/pink"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/tvSearchInst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="@string/instSearch"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
